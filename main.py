@@ -1,7 +1,6 @@
 import sqlalchemy
 
-engine = sqlalchemy.create_engine('postgresql://postgres:1234@localhost:5432/Music_Website')
-
+engine = sqlalchemy.create_engine('postgresql://postgres:*******@localhost:5432/Music_Website')
 connection = engine.connect()
 
 genres = ['Pop', 'Rock', 'Blues', 'Electronic', 'Folk', 'Alternative', 'Hip-Hop', 'House', 'Latin']
